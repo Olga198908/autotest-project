@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Playwright
+playwright-report/
+test-results/
+*.trace
+
+# Logs
+reports/logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# pytest cache
+.pytest_cache/
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project specific
+allure-results/
+allure-report/
+/reports/screenshots/
+/reports/videos/
+
+
+reports/logs/*.log
+reports/screenshots/
+reports/videos/
+
+# Исключения (не игнорировать пустые папки)
+!reports/logs/.gitkeep
+!reports/screenshots/.gitkeep
+!reports/videos/.gitkeep
