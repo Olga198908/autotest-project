@@ -69,8 +69,8 @@ reports/logs/
 *.temp
 
 # Project specific
-allure-results/
-allure-report/
+reports/allure-results/
+reports/allure-report/
 /reports/screenshots/
 /reports/videos/
 
